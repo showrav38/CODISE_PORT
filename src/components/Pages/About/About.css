@@ -1,0 +1,137 @@
+.aboutbg-image {
+  background: url(/public/images/newbanner3.jpg) no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 80vh;
+}
+
+.about-search-1 {
+  padding: 200px 0px 150px 0px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+.contact .contact-form .form-control {
+  padding: 1rem 1.5rem !important;
+  border-radius: 0rem !important;
+  border: 0.1rem solid var(--secondary-color) !important;
+  color: var(--primary-text) !important;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  font-family: var(--secondary-font) !important;
+}
+
+@media screen and (max-width: 960px) {
+  .aboutbg-image {
+    background: url(/public/images/newbanner3.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 50vh;
+  }
+  .about-search-1 {
+    padding: 90px 0px 150px 0px;
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+  .about-search-1 h1 {
+    font-size: 40px !important;
+    margin-top: 50px;
+  }
+  .tourz-hom-ser {
+    display: none;
+  }
+}
+
+.card-pink {
+  border-radius: 6px;
+  border-bottom: 4px solid #ff2c95 !important;
+}
+.card-blue {
+  border-radius: 6px;
+  border-bottom: 4px solid #1c68b3 !important;
+}
+
+.col .card img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.card-body {
+  padding: 1rem 1.5rem;
+}
+.card-body p {
+  color: #4b5563;
+}
+.card-blue svg {
+  fill: #1c68b3;
+}
+.card-pink svg {
+  fill: #ff2c95;
+}
+.card-blue .card-footer p {
+  color: #1c68b3;
+}
+.card-pink .card-footer p {
+  color: #ff2c95;
+}
+.card-shape {
+  position: relative;
+}
+.custom-shape-divider-bottom-1634717805 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634717805 svg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1634717805 .shape-fill {
+  fill: #ffffff;
+}
+
+
+.services-grid h4 {
+  font-size: 22px;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+
+.services-icon span {
+  font-size: 38px;
+  margin-top: 1em;
+}
+
+.icon-clr1 {
+  color: #00a3e2;
+}
+.icon-clr2 {
+  color: #b764d8;
+}
+.icon-clr3 {
+  color: #e53b2c;
+}
+.icon-clr4 {
+  color: #0ca799;
+}
+.icon-clr5 {
+  color: #39dcb1;
+}
+.icon-clr6 {
+  color: #feb155;
+}
+

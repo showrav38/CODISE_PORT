@@ -1,0 +1,63 @@
+.conbg-image {
+    background: url(/public/images/cl3.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .contact-search-1 {
+    padding: 200px 0px 150px 0px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.contact .contact-form .form-control {
+    padding: 1rem 1.5rem !important;
+    border-radius: 0rem !important;
+    border: 0.1rem solid var(--secondary-color) !important;
+    color: var(--primary-text) !important;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    font-family: var(--secondary-font) !important;
+}
+.form-control{
+  font-size: 20px;
+}
+.info-box{
+  font-size: 20px;
+}
+.info-box i{
+  color: rgb(237, 22, 81);
+  margin-left: 10px;
+}
+.info-box p{
+  margin-left: 10px;
+}
+.info-box a{
+  color: #000;
+  margin-left: 10px;
+}
+@media screen and (max-width: 960px){
+  .conbg-image {
+    background: url(/public/images/newbanner2.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 50vh;
+  }
+  .contact-search-1 {
+    padding: 90px 0px 150px 0px;
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.contact-search-1 h1 {
+  font-size: 40px !important;
+  margin-top: 50px;
+}
+.tourz-hom-ser{
+  display: none;
+}
+}

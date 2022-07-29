@@ -1,0 +1,14 @@
+.bg-image {
+    background: url(/public/images/newbanner2.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 90vh;
+  }
+  @media screen and (max-width: 960px){
+    .bg-image {
+        background: url(/public/images/newbanner2.jpg) no-repeat;
+        position: relative;
+        background-size: cover;
+        height: 60vh;
+      }
+  }

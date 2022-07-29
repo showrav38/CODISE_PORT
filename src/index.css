@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#tidio-chat-iframe .awesome-iframe .frame-content .chatSize1 .chat {
+  max-height: 80vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+#tidio-chat-iframe {
+  max-height: 80vh !important;
+  margin-top: 90px;
+  display: inline;
+  /* z-index: 2147483647 !important; */
+}
